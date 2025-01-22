@@ -1,0 +1,17 @@
+name = "ByteDesk Customer Service"
+client_id = ""
+application_url = ""
+embedded = true
+
+[access_scopes]
+# This app requires access to write script tags
+scopes = "write_script_tags"
+
+[auth]
+redirect_urls = []
+
+[webhooks]
+api_version = "2024-01"
+
+[pos]
+embedded = false 
